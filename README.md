@@ -104,6 +104,11 @@ go run pseudoword_generator.go -n 20 -l 6
    - If it hits a dead end (no valid trigram continues the sequence), it throws away the current attempt and restarts.
 4. **Filtering**: It ensures the newly generated string hasn't been generated already during this run and does not exist in the original model dataset.
 
+## Word lists
+
+* `liste.de.mots.francais.frgut.txt`  comes from <https://github.com/chrplr/openlexicon/blob/master/datasets-info/Liste-de-mots-francais-Gutenberg/README-liste-francais-Gutenberg.md>
+* `english.word.list.subtlexus4.txt` comes from <https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus>
+
 ## License
 
 This project is distributed under the terms of the GNU General Public License v3.
