@@ -20,7 +20,7 @@ For more info, see:
 
 ## Origin
 
-This Go program is a direct port of the original R script, `[pseudoword-generation-by-markov-on-trigrams.R](https://github.com/chrplr/openlexicon/blob/master/scripts/pseudoword-generation-by-markov-on-trigrams/pseudoword-generation-by-markov-on-trigrams.R)`.
+This Go program is a direct port of the original R script, [pseudoword-generation-by-markov-on-trigrams.R](https://github.com/chrplr/openlexicon/blob/master/scripts/pseudoword-generation-by-markov-on-trigrams/pseudoword-generation-by-markov-on-trigrams.R).
 
 This script runs the [Unipseudo](http://www.lexique.org/shiny/unipseudo/) web tool.
 
