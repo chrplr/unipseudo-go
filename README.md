@@ -1,6 +1,12 @@
-# Pseudoword Generator
+# Unipseudo-go Pseudoword Generator
+
+* [HTML version](https://chrplr.github.io/unipseudo-go) of this document
+* [Github repository](https://github.com/chrplr/unipseudo-go) of the project
 
 This program generates pseudowords (pronounceable, fake words that look like real words) by chaining trigrams (sequences of three characters) extracted from a provided list of real words using Markov chains. 
+
+![](unipseudo_small.png)
+
 
 The generated pseudowords are guaranteed to:
 - Be of a specific, targeted length.
