@@ -7,13 +7,16 @@ The generated pseudowords are guaranteed to:
 - Not exactly match any of the original words used to build the model.
 - Be structurally similar to the words in the provided dictionary.
 
-## Origin
-
-This Go program is a direct port of the original R script, `pseudoword-generation-by-markov-on-trigrams.R`, written by Christophe Pallieri and described in:
+For more info, see:
 
 > New, B., Bourgin, J., Barra, J., & Pallier, C. (2024). UniPseudo: A universal pseudoword generator. Quarterly Journal of Experimental Psychology, 77(2), 278–286. https://doi.org/10.1177/17470218231164373 [[PDF](https://www.pallier.org/papers/Unipseudo.pdf)]
 
-For an online, browser-based generator using similar principles, see: [Unipseudo : un générateur universel de pseudomots](http://www.lexique.org/shiny/unipseudo/)
+
+## Origin
+
+This Go program is a direct port of the original R script, `[pseudoword-generation-by-markov-on-trigrams.R](https://github.com/chrplr/openlexicon/blob/master/scripts/pseudoword-generation-by-markov-on-trigrams/pseudoword-generation-by-markov-on-trigrams.R)`.
+
+This script runs the [Unipseudo](http://www.lexique.org/shiny/unipseudo/) web tool.
 
 The Go port maintains the exact structural and algorithmic behavior of the R script—such as position-dependent trigram selection and robust UTF-8 handling—while optimizing the generation process using pre-indexed trigram maps for O(1) transitions. 
 
@@ -28,8 +31,9 @@ You do **not** need to install Go to run this program. Pre-compiled binaries are
 1. Go to the [Releases page](../../releases) of this repository.
 2. Download the binary that matches your operating system and architecture.
 3. Extract the downloaded archive.
-4. Run the executable from your terminal or command prompt:
+4. Give the binaries execution rithg and run it from your terminal or command prompt:
    ```bash
+    chmod +x pseudoword-generator
    ./pseudoword-generator [options]
    ```
    *(On Windows, use `pseudoword-generator.exe`)*
