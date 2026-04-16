@@ -6,7 +6,6 @@ authors:
     affiliation: "CNRS, NeuroSpin"
     orcid: "https://orcid.org/0000-0002-3324-666X"
 title: "unipseudo-go"
-description: "A pseudoword generator using trigram Markov chains from real word dictionaries (Go port of UniPseudo)."
 abstract: >-
   unipseudo-go is a high-performance port of the UniPseudo tool. It generates
   pronounceable pseudowords by training Markov chains on the orthographic or 
@@ -18,7 +17,7 @@ keywords:
   - markov-chains
   - go
   - linguistics
-license: "GNU Public License version v3.0"
+license: "GPL-3.0"
 version: "1.0.2"
 date-released: "2026-04-16"
 

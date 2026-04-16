@@ -114,3 +114,22 @@ go run pseudoword_generator.go -n 20 -l 6
 This project is distributed under the terms of the GNU General Public License v3.
 
 Copyright (c) 2026 Christophe Pallier
+
+If you use this software, please cite this repository as:
+
+> Pallier, C. (2026). unipseudo-go (Version 1.0.3) [Computer software]. GitHub. https://github.com/chrplr/unipseudo-go
+
+Bibtex entry:
+
+     @software{unipseudo-go2026,
+       author = {Pallier, Christophe},
+       title = {Unipseudo-go: A pseudoword generator using trigram Markov chains},
+       version = {1.0.3},
+       date = {2026-04-16},
+       url = {https://github.com/chrplr/unipseudo-go},
+       publisher = {GitHub},
+       abstract = {A high-performance port of the UniPseudo tool for generating pronounceable pseudowords using Markov chains.},
+       keywords = {psycholinguistics, pseudowords, markov-chains, go},
+       license = {GPL-v3.0}
+     }
+ 
