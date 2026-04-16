@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Pallier"
+    given-names: "Christophe"
+    affiliation: "CNRS, NeuroSpin"
+    orcid: "https://orcid.org/0000-0002-3324-666X"
+title: "unipseudo-go"
+description: "A pseudoword generator using trigram Markov chains from real word dictionaries (Go port of UniPseudo)."
+abstract: >-
+  unipseudo-go is a high-performance port of the UniPseudo tool. It generates
+  pronounceable pseudowords by training Markov chains on the orthographic or 
+  phonological trigrams of a source dictionary.
+repository-code: "https://github.com/chrplr/unipseudo-go"
+keywords:
+  - psycholinguistics
+  - pseudowords
+  - markov-chains
+  - go
+  - linguistics
+license: "GNU Public License version v3.0"
+version: "1.0.2"
+date-released: "2026-04-16"
+
+# This section tells users to also cite the original methodology
+references:
+  - type: article
+    authors:
+      - family-names: "New"
+        given-names: "Boris"
+      - family-names: "Bourgin"
+        given-names: "Jessica"
+      - family-names: "Barra"
+        given-names: "Julien"
+      - family-names: "Pallier"
+        given-names: "Christophe"
+    title: "UniPseudo: A Universal Pseudoword Generator"
+    journal: Quarterly Journal of Experimental Psychology
+    year: 2023
+    doi: 10.1177/17470218231164373
